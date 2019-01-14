@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Example 1",
+    "description": "This is the description for example 1.",
+    "thumbnail": "./assets/images/cards/example-1-thumbnail.jpg",
+    "serviceEndpoint": "http://www.example.dev/1",
+    "shouldUpload": false,
+    "inputs": [
+      {
+        "displayName": "Upload",
+        "name": "fileUploader",
+        "type": "fileUploader",
+        "props": {
+          "allowMultiple": false,
+          "maxFiles": 2,
+          "acceptedFileTypes": []
+        }
+      },
+      {
+        "displayName": "File Name",
+        "name": "fileName",
+        "type": "text",
+        "props": {
+          "description": "The name of the exported file",
+          "required": true
+        }
+      },
+      {
+        "displayName": "Awesome",
+        "name": "isAwesome",
+        "type": "checkbox",
+        "props": {}
+      }
+    ]
+  },
+  {
+    "name": "Example 2",
+    "description": "This is the very very long description for example 2 to force a multi-line description.",
+    "thumbnail": "./assets/images/cards/example-2-thumbnail.jpg",
+    "serviceEndpoint": "http://www.example.dev/2",
+    "shouldUpload": false,
+    "inputs": [
+      {
+        "displayName": "Upload",
+        "name": "fileUploader",
+        "type": "fileUploader",
+        "props": {
+          "allowMultiple": false,
+          "maxFiles": 2,
+          "acceptedFileTypes": []
+        }
+      }
+    ]
+  },
+  {
+    "name": "Example 3",
+    "description": "This is the very very long description for example 3 to force a multi-line description.",
+    "thumbnail": "./assets/images/cards/example-3-thumbnail.jpg",
+    "serviceEndpoint": "http://www.example.dev/3",
+    "shouldUpload": false
+  },
+  {
+    "name": "Example 4",
+    "description": "This is the description for example 4.",
+    "thumbnail": "./assets/images/cards/example-4-thumbnail.jpg",
+    "serviceEndpoint": "http://www.example.dev/4",
+    "shouldUpload": false
+  },
+  {
+    "name": "Example 5",
+    "description": "This is the description for example 5.",
+    "thumbnail": "./assets/images/cards/example-5-thumbnail.jpg",
+    "serviceEndpoint": "http://www.example.dev/5"
+  },
+  {
+    "name": "Example 6",
+    "description": "This is the very very long description for example 3 to force a multi-line description.",
+    "thumbnail": "./assets/images/cards/example-6-thumbnail.jpg",
+    "serviceEndpoint": "http://www.example.dev/6",
+    "shouldUpload": false
+  },
+  {
+    "name": "Example 7",
+    "description": "This is the description for example 7.",
+    "thumbnail": "./assets/images/cards/example-7-thumbnail.jpg",
+    "serviceEndpoint": "http://www.example.dev/7",
+    "shouldUpload": false
+  },
+  {
+    "name": "Example 8",
+    "description": "This is the description for example 8.",
+    "thumbnail": "./assets/images/cards/example-8-thumbnail.jpg",
+    "serviceEndpoint": "http://www.example.dev/8",
+    "shouldUpload": false
+  }
+]

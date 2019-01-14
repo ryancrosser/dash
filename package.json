@@ -1,25 +1,45 @@
 {
-  "name": "vms-rest-dashboard",
+  "name": "dash",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "generate-icons": "vsvg -s ./svg-icons -t ./src/compiled-icons",
+    "commit": "git add . && git-cz",
+    "release": "corp-semantic-release"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@phoenix/conventional-changelog"
+    }
   },
   "dependencies": {
-    "vue": "^2.5.21",
+    "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "filepond": "^3.7.5",
+    "filepond-plugin-file-validate-type": "^1.2.1",
+    "filepond-polyfill": "^1.0.2",
+    "vue": "^2.5.22",
+    "vue-filepond": "^4.0.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@phoenix/conventional-changelog": "git+https://gitlab.com/TeamPhoenix/conventional-changelog.git",
     "@vue/cli-plugin-babel": "^3.3.0",
     "@vue/cli-plugin-eslint": "^3.3.0",
     "@vue/cli-service": "^3.3.0",
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21"
+    "commitizen": "^3.0.5",
+    "corp-semantic-release": "^6.4.0",
+    "eslint": "^5.12.0",
+    "eslint-plugin-vue": "^5.1.0",
+    "husky": "^1.3.1",
+    "validate-commit-msg": "^2.14.0",
+    "vue-svgicon": "^3.2.2",
+    "vue-template-compiler": "^2.5.22"
   }
 }
