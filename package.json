@@ -12,7 +12,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/@phoenix/conventional-changelog"
+      "path": "./node_modules/conventional-changelog-cross"
     }
   },
   "dependencies": {
@@ -27,13 +27,13 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@phoenix/conventional-changelog": "git+https://gitlab.com/TeamPhoenix/conventional-changelog.git",
     "@vue/cli-plugin-babel": "^3.3.0",
     "@vue/cli-plugin-eslint": "^3.3.0",
     "@vue/cli-service": "^3.3.0",
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.0.1",
     "commitizen": "^3.0.5",
+    "conventional-changelog-cross": "^1.0.0",
     "corp-semantic-release": "^6.4.0",
     "eslint": "^5.12.0",
     "eslint-plugin-vue": "^5.1.0",
